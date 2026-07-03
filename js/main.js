@@ -108,8 +108,8 @@
     function start() { if (!reduce) timer = setInterval(next, 5500); }
     function restart() { clearInterval(timer); start(); }
 
-    $("[data-next]", carousel).addEventListener("click", () => go(index + 1, true));
-    $("[data-prev]", carousel).addEventListener("click", () => go(index - 1, true));
+    $("[data-next]", carousel)?.addEventListener("click", () => go(index + 1, true));
+    $("[data-prev]", carousel)?.addEventListener("click", () => go(index - 1, true));
 
     // pause on hover
     carousel.addEventListener("mouseenter", () => clearInterval(timer));
