@@ -1,0 +1,16 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Vercel
+.vercel
+
+# Local dev/test scratch
+_devtest*.html
+*.log
