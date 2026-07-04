@@ -292,8 +292,10 @@ p{ margin:0 0 1rem; }
 .footer-col ul{ list-style:none; margin:0; padding:0; display:grid; gap:.5rem; }
 .footer-col em{ color:var(--amber); font-style:normal; }
 .footer-bar{ border-top:1px solid rgba(255,255,255,.12); padding:1.2rem 0; }
-.footer-bar .container{ display:flex; flex-wrap:wrap; justify-content:space-between; gap:.5rem; }
+.footer-bar .container{ display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:.35rem 1.6rem; text-align:center; }
 .footer-bar p{ margin:0; font-size:.88rem; color:#b4a89e; }
+.footer-credit{ position:relative; }
+.footer-credit span{ color:#e8ded5; font-weight:700; letter-spacing:.2px; }
 
 /* ---------- Back to top ---------- */
 .to-top{
